@@ -7,7 +7,7 @@
 
 #ifndef BazelExample_Bridging_Header_h
 #define BazelExample_Bridging_Header_h
-#import <PoseTrackingGpuApp/PoseTrackingViewController.h>
 
 
 #endif /* BazelExample_Bridging_Header_h */
+#import <PoseTrackingGpuApp/PoseTrackingViewController.h>

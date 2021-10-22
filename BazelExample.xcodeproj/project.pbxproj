@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20A74BE27231AD000BB8E77 /* PoseTrackingGpuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A74BD27231ACF00BB8E77 /* PoseTrackingGpuApp.framework */; platformFilter = ios; };
 		A22ADC1D272273E300D9BE36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ADC1C272273E300D9BE36 /* AppDelegate.swift */; };
 		A22ADC1F272273E300D9BE36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ADC1E272273E300D9BE36 /* SceneDelegate.swift */; };
 		A22ADC21272273E300D9BE36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22ADC20272273E300D9BE36 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		A20A74BC27230B1100BB8E77 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A20A74BD27231ACF00BB8E77 /* PoseTrackingGpuApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PoseTrackingGpuApp.framework; sourceTree = "<group>"; };
 		A22ADC19272273E300D9BE36 /* BazelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BazelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22ADC1C272273E300D9BE36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A22ADC1E272273E300D9BE36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20A74BE27231AD000BB8E77 /* PoseTrackingGpuApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +74,7 @@
 		A22ADC1B272273E300D9BE36 /* BazelExample */ = {
 			isa = PBXGroup;
 			children = (
+				A20A74BD27231ACF00BB8E77 /* PoseTrackingGpuApp.framework */,
 				A22ADC1C272273E300D9BE36 /* AppDelegate.swift */,
 				A22ADC1E272273E300D9BE36 /* SceneDelegate.swift */,
 				A22ADC20272273E300D9BE36 /* ViewController.swift */,
